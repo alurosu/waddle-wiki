@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+	background: linear-gradient(to bottom, #3A7CD0, #B0E1E5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.waddle-border {
+    border: 1px solid #669ad7;
+    border-radius: 10px;
+}
+#waddle-price-usd {
+    font-size: 0.7em;
+    color: #309b4d;
+}
+
